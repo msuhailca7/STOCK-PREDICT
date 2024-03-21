@@ -13,7 +13,7 @@ def main_content():
 
 # Initialize the login object with authentication token
 __login__obj = __login__(
-    auth_token="pk_prod_Q7S8YDR7CMMZB1MEW9T9Z0WMBKVP",  # Replace with your Courier auth token
+    auth_token="",  # Replace with your Courier auth token
     company_name="STOCK PREDICT",
     width=200, 
     height=250, 
