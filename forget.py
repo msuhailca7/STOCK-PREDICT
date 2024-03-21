@@ -1,12 +1,12 @@
 # Install Courier SDK: pip install trycourier
 from trycourier import Courier
 
-client = Courier(auth_token="pk_prod_Q7S8YDR7CMMZB1MEW9T9Z0WMBKVP")
+client = Courier(auth_token="enter your token here")
 
 resp = client.send_message(
         message={
           "to": {
-            "email": "msuhailca7@gmail.com"
+            "email": "enter mail id"
           },
           "content": {
             "title": "Welcome to Courier!",
